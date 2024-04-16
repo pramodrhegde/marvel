@@ -29,6 +29,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
     }),
-    new Dotenv()
+    new Dotenv(),
+    new CopyPlugin({
+      patterns: [
+        { from: 'public/images', to: 'dist' },
+      ],
+    }),
   ],
 };
