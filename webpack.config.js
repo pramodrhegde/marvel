@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
@@ -24,6 +25,14 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ],
   },
   plugins: [
@@ -33,7 +42,7 @@ module.exports = {
     new Dotenv(),
     new CopyPlugin({
       patterns: [
-        { from: 'public/images', to: 'dist' },
+        { from: 'public/images', to: 'public/images' },
       ],
     }),
   ],
