@@ -1,0 +1,8 @@
+header {
+    position: sticky;
+    top: 0;
+    background-color: #EC1D24;
+    z-index: 1;
+    height: 60px;
+    padding: 5px;
+}

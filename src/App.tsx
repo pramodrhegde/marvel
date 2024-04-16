@@ -1,15 +1,17 @@
 import React from 'react'
 import "./main.css";
+import Header from './common/Header';
+import CharactersGallery from './CharactersGallery';
+import ComicsList from './ComicsList';
+import FiltersBox from './FiltersBox';
 
 function App() {
   return (
     <div className="app">
-      <div className="content">
-        <p>Hello React!</p>
-      </div>
-      <div className="footer">
-        Use the Shell to install new packages.
-      </div>
+        <Header />
+        <CharactersGallery />
+        <FiltersBox />
+        <ComicsList />
     </div>
   )
 }

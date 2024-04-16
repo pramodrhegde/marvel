@@ -7,4 +7,111 @@ body {
     margin: 0;
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 1.2rem;
+    background-color: #414141;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid #414141;
+    margin: 5px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn.active {
+    border: 2px solid #EC1D24;
+}
+
+.search-input {
+    height: 40px;
+    border: 1px solid #2D2D2D;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.characters-gallery-wrapper {
+    background-color: #2D2D2D;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+.characters-gallery-wrapper > .container {
+    height: 100px;   
+}
+
+.character-circle {
+    flex: 0 0 5%;
+    padding: 5px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.character-circle.active{
+    border: 2px solid skyblue;
+}
+
+.character-nav {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    opacity: 0.75;
+    border-radius: 50%;
+    text-align: center;
+    color: #2D2D2D;
+    line-height: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.character-nav.right {
+    right: 0;
+    transform: translate(50px, 50%);
+}
+.character-nav.left {
+    left: 0;
+    transform: translate(-50px, 50%);
+}
+
+.comic-card-link {
+    text-decoration: none;
+    flex: 0 0 calc(25% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px 0px  #2D2D2D;
+    margin: 10px 10px;
+    color: white;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: 0;
 }
