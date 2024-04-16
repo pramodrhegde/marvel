@@ -50,6 +50,16 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./public/images/logo.svg":
+/*!********************************!*\
+  !*** ./public/images/logo.svg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"be1f937a60f9541049ba55eeed066280.svg\");\n\n//# sourceURL=webpack://marvel/./public/images/logo.svg?");
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -296,7 +306,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ \"./src/common/Header.css\");\n/* harmony import */ var _SearchBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SearchBox */ \"./src/common/SearchBox.tsx\");\n\n\n\nvar Header = function () {\n    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"header\", null,\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", { className: 'container flex-row' },\n            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", { src: \"/images/logo.svg\", alt: \"marvel logo\" }),\n            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SearchBox__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n\n//# sourceURL=webpack://marvel/./src/common/Header.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ \"./src/common/Header.css\");\n/* harmony import */ var _SearchBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SearchBox */ \"./src/common/SearchBox.tsx\");\n/* harmony import */ var _public_images_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../public/images/logo.svg */ \"./public/images/logo.svg\");\n\n\n\n\nvar Header = function () {\n    return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"header\", null,\n        react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", { className: 'container flex-row' },\n            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", { src: _public_images_logo_svg__WEBPACK_IMPORTED_MODULE_3__[\"default\"], alt: \"marvel logo\" }),\n            react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SearchBox__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null)));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n\n//# sourceURL=webpack://marvel/./src/common/Header.tsx?");
 
 /***/ }),
 
@@ -617,6 +627,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
